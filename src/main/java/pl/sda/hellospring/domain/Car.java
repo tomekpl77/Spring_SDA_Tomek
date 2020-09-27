@@ -15,13 +15,13 @@ public class Car {
     @Id
     @GeneratedValue
     private Long id;
-    @Column(name = "marka_samochodu", nullable = false)
+    @Column(name = "marka", nullable = false)
     private String brand;
-    @Column(name = "model_samochodu")
+    @Column(name = "model")
     private String model;
 
     //@Transient
-    @Column(name = "kolor_samochodu")
+    @Column(name = "kolor")
     private String color;
 
 
